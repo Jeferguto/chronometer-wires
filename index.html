@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cronómetros con Web Workers</title>
+   
+</head>
+<body>
+    <div>
+        <h2>Cronómetro 1</h2>
+        <p id="cronometro1">0</p>
+        <button id="iniciar1">Iniciar</button>
+        <button id="pausar1">Pausar</button>
+        <button id="continuar1">Continuar</button>
+        <button id="terminar1">Terminar</button>
+    </div>
+    <div>
+        <h2>Cronómetro 2</h2>
+        <p id="cronometro2">0</p>
+        <button id="iniciar2">Iniciar</button>
+        <button id="pausar2">Pausar</button>
+        <button id="continuar2">Continuar</button>
+        <button id="terminar2">Terminar</button>
+    </div>
+    <div>
+        <h2>Cronómetro 3</h2>
+        <p id="cronometro3">0</p>
+        <button id="iniciar3">Iniciar</button>
+        <button id="pausar3">Pausar</button>
+        <button id="continuar3">Continuar</button>
+        <button id="terminar3">Terminar</button>
+    </div>
+    <button id="pausarTodos">Pausar Todos</button>
+
+    <script src="index.js"></script>
+    <script src="worker.js"></script>
+</body>
+</html>
